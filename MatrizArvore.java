@@ -36,7 +36,6 @@ public class MatrizArvore {
             }
         } catch (IOException erro) {
             System.err.println("Erro ao ler o arquivo: " + erro.getMessage());
-            System.out.println("ARQUIVO NÃO ENCONTRADO!");
         }
 
         // Preencher a matriz com base nas linhas lidas
